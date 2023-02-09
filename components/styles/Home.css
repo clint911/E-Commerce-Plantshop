@@ -1,0 +1,61 @@
+.Home {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ max-width: 100%;
+ overflow-x: hidden;
+}
+.Home-nav {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 0px;
+ gap: 68px;
+ list-style-type:none;
+ 
+ position: absolute;
+ width: 534px;
+ height: 28px;
+ left: 478px;
+ top: 9px;
+
+}
+.Home-header {
+ position: absolute;
+width: 1128px;
+height: 192px;
+left: 0px;
+top: 0px;
+
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 82px;
+line-height: 96px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+.Home-paragraph {
+
+    position: absolute;
+    width: 583px;
+    height: 72px;
+    left: 272px;
+    top: 216px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
