@@ -4,6 +4,8 @@
  justify-content: center;
  max-width: 100%;
  overflow-x: hidden;
+
+  flex: 0 0 100%;
 }
 .Home-nav {
  display: flex;
@@ -13,7 +15,7 @@
  padding: 0px;
  gap: 68px;
  list-style-type:none;
- 
+
  position: absolute;
  width: 534px;
  height: 28px;
@@ -47,15 +49,493 @@ color: #FFFFFF;
     height: 72px;
     left: 272px;
     top: 216px;
-    
+
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
     /* or 36px */
-    
+
     text-align: center;
-    
+
     color: #FFFFFF;
+}
+
+.Home-services {
+  background:#FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 173px;
+  flex: 0 0 100%;
+
+position: absolute;
+width: 1487px;
+height: 84px;
+left: 121px;
+top: 1291px;
+/* display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 173px;
+
+position: absolute;
+width: 1487px;
+height: 84px;
+left: 0px;
+top: 0px; */
+}
+.Home-products {
+  position: absolute;
+  width: 1483px;
+  height: 634px;
+  left: 123px;
+  top: 1517px;
+}
+.Home-products large-text {
+  position: absolute;
+width: 363px;
+height: 150px;
+left: 0px;
+top: 243px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+
+/* font */
+
+color: #081323;
+}
+.Home-products-pots {
+  display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 1051px;
+height: 634px;
+left: 401px;
+top: 0px;
+}
+.Home-plants {
+position: absolute;
+width: 1484px;
+height: 1207px;
+left: 126px;
+top: 2333px;
+}
+.Home-plants plants-ref {
+position: absolute;
+width: 751px;
+height: 130px;
+left: 377px;
+top: 0px;
+}
+.Home-plants plants-ref > h3 {
+
+position: absolute;
+width: 751px;
+height: 75px;
+left: 377px;
+top: 0px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+color: #081323;
+}
+.Home-plants plants-ref > p {
+  position: absolute;
+width: 649px;
+height: 28px;
+left: 413px;
+top: 102px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+.Home-plants-image {
+position: absolute;
+width: 1484px;
+height: 995px;
+left: 0px;
+top: 212px;
+}
+.Home-care {
+position: absolute;
+width: 1488px;
+height: 775px;
+left: 120px;
+top: 3722px;
+}
+.Home-care > h4 {
+
+position: absolute;
+width: 452px;
+height: 150px;
+left: 5px;
+top: 0px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+
+/* font */
+
+color: #081323;
+}
+.Home-care > p {
+position: absolute;
+width: 447px;
+height: 28px;
+left: 5px;
+top: 178px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+.Home-care-plist {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 585px;
+height: 487px;
+left: 0px;
+top: 288px;
+}
+.Home-care-plist-1 {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 585px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-1 > h3 {
+
+width: 235px;
+height: 38px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-1 > p {
+width: 493px;
+height: 46px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Home-care-plist-1 > p {
+width: 493px;
+height: 46px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Home-care-plist-1 > img {
+width: 68px;
+height: 68px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-2 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 506px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Home-care-plist-2 > h3 {
+width: 337px;
+height: 38px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-2 > p {
+
+width: 414px;
+height: 46px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Home-care-plist-2 > img {
+
+width: 68px;
+height: 68px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-3 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 506px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.Home-care-plist-3 > h3 {
+width: 337px;
+height: 38px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-3 > h3 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 414px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Home-care-plist-3 > img {
+
+width: 68px;
+height: 68px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-4 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 579px;
+height: 115px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.Home-care-plist-4 > h3 {
+width: 272px;
+height: 38px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Home-care-plist-4 > p {
+
+width: 487px;
+height: 69px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Home-care-plist-4 > img {
+width: 68px;
+height: 68px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
