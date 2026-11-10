@@ -1,9 +1,25 @@
-import React from "react";
+interface NavbarProps {
+  cartCount: number;
+}
 
-export default function NavBar() {
+const asset = (name: string) => `/assets/${name}`;
+
+export default function Navbar({ cartCount }: NavbarProps) {
   return (
-    <div className="NavBar">
-      <h1>Navbar will be added here </h1>
-    </div>
-  )
+    <nav className="site-nav" aria-label="Main navigation">
+      <a className="active" href="#home">
+        Home
+      </a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <a className="cart" href="#shop" aria-label={`${cartCount} items in shopping bag`}>
+        <img src={asset("883a3.svg")} alt="" />
+        <span>
+          <img src={asset("9a5e6.svg")} alt="" />
+          <b>{cartCount}</b>
+        </span>
+      </a>
+    </nav>
+  );
 }

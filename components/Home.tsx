@@ -75,19 +75,19 @@ sure the room temparature is neither too cold not too hot</p>
 </img>
 </div>
 <div className='Home-care-plist-2'>
-<h3>Don't water too often</h3>
+<h3>Don&apos;t water too often</h3>
 <p>Watering ornamental plants indoors does not have to be every day</p>
-<img className='Home-care-plist-img-2' src='../public/Images/water-icon.png'></img>
+<img className='Home-care-plist-img-2' src='../public/Images/water-icon.png' alt='Water icon'></img>
 </div>
 <div className='Home-care-plist-2'>
-<h3>Don't water too often</h3>
+<h3>Don&apos;t water too often</h3>
 <p>Watering ornamental plants does not have to be everyday</p>
-<img src='../public/Images/plant-icon.png'></img>
+<img src='../public/Images/plant-icon.png' alt='Plant icon'></img>
 </div>
 <div className='Home-care-plist-3'>
-<h3>Don't water too much</h3>
+<h3>Don&apos;t water too much</h3>
 <p>Watering ornamental plants does not have to be everyday</p>
-<img src='../public/Images/water-icon.png'></img>
+<img src='../public/Images/water-icon.png' alt='Water icon'></img>
 </div>
 <div className='Home-care-plist-4'>
    <h3>Fertilize regularly</h3>

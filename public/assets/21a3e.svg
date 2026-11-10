@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="205" height="115.744" viewBox="0 0 205 115.744" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<foreignObject x="-4" y="-4" width="213" height="123.744"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_0_32_clip_path);height:100%;width:100%"></div></foreignObject><g id="Union" data-figma-bg-blur-radius="4">
+<use xlink:href="#stroke0_0_32" fill="#FFFDFD" fill-opacity="0.2"/>
+<mask id="stroke1_0_32" fill="white">
+<use xlink:href="#stroke0_0_32"/>
+</mask>
+<path d="M0 24C0 10.7452 10.7452 0 24 0H181C194.255 0 205 10.7452 205 24V79C205 92.2548 194.255 103 181 103H109.053L103.173 113.674C101.687 116.371 97.839 116.448 96.2461 113.813L89.7758 103.109C89.7539 103.073 89.7326 103.037 89.712 103H24C10.7452 103 0 92.2548 0 79V24Z" stroke-width="2" stroke="white" mask="url(#stroke1_0_32)"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_32_clip_path" transform="translate(4 4)"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 0C10.7452 0 0 10.7452 0 24V79C0 92.2548 10.7452 103 24 103H89.712C89.7326 103.037 89.7539 103.073 89.7758 103.109L96.2461 113.813C97.839 116.448 101.687 116.371 103.173 113.674L109.053 103H181C194.255 103 205 92.2548 205 79V24C205 10.7452 194.255 0 181 0H24Z"/>
+</clipPath><path id="stroke0_0_32" d="M24 0C10.7452 0 0 10.7452 0 24V79C0 92.2548 10.7452 103 24 103H89.712C89.7326 103.037 89.7539 103.073 89.7758 103.109L96.2461 113.813C97.839 116.448 101.687 116.371 103.173 113.674L109.053 103H181C194.255 103 205 92.2548 205 79V24C205 10.7452 194.255 0 181 0H24Z" fill-rule="evenodd" clip-rule="evenodd"/>
+</defs>
+</svg>

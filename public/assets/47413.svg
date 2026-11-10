@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="point-product">
+<foreignObject x="-4" y="-4" width="62" height="62"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_0_45_clip_path);height:100%;width:100%"></div></foreignObject><circle id="Ellipse 3" data-figma-bg-blur-radius="4" cx="27" cy="27" r="26.5" fill="white" fill-opacity="0.2" stroke="white"/>
+<circle id="Ellipse 4" cx="27" cy="27" r="8" fill="white"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_45_clip_path" transform="translate(4 4)"><circle cx="27" cy="27" r="26.5"/>
+</clipPath></defs>
+</svg>
